@@ -1,5 +1,155 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 25vh;
+  margin: 0px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 25px;
+}
+
+
+.ref {
+  text-decoration: none;
+  color: black;
+  margin-right: 110px;
+}
+
+.ref:hover {
+  color: red;
+  transition: 0.4s;
+}
+
+#banner {
+  width: 100%;
+  margin: 0% auto;
+  
+}
+
+section{
+  background-color: #EFEFEF;
+}
+
+section h3{
+  position: relative;
+  bottom: 6px;
+}
+
+.block {
+  text-align: center;
+  font-size: 30px;
+  background-color: #2E2E2E;
+  color: #fff;
+}
+
+.container{
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+
+#Grande{
+  font-size: 60px;
+  color: #2E2E2E;
+}
+
+#imgmassa{
+  width: 45%;
+  margin: 10px;
+}
+
+#massa{
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.pizzamid{
+  position: relative;
+  width: 100%;
+}
+
+.mid{
+  text-align: center;
+  background-color: #2E2E2E;
+}
+
+.link1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+
+.midp{
+  background-color: #fff;
+  text-align: center;
+}
+
+.midp h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.av{
+  display: inline-table;
+  font-size: 25px;
+  padding: 40px;
+  
+}
+
+.horarios{
+  display: inline-table;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  position: relative;
+  
+}
+
+#font{
+  font-size: 20px;
+}
+
+#como{
+  position: relative;
+  right: 140px;
+  margin-top: 45px;
+  border: 3px solid #2E2E2E ;
+  font-size: 20px;
+}
+
+#imgpizzabot{
+  width: 100%;
+}
+
+footer{
+  position: relative;
+  bottom: 6px;
+  background-color: #2E2E2E;
+  height: 150px;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
 }
